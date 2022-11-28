@@ -1,0 +1,67 @@
+* {
+    margin: 0px; 
+    padding: 0px;
+ }
+ body {
+     background-color: rgb(0, 7, 9,0.2);
+ }
+ .box {    
+     
+     height: fit-content;
+ }
+
+ button { 
+    background-color: #4CAF50; 
+     /*width: 50%;*/
+     color: rgb(17, 10, 2); 
+     padding: 10px; 
+     margin: 10px 0px; 
+     font-size: 25px;
+     font-weight: bold;
+     border-radius: 5px;
+     border: none; 
+     cursor: pointer;
+     font-family: 'Kalam', cursive; 
+      } 
+form{
+ border: 3px solid black;
+}
+input[type=text], input[type=password] { 
+     /*width: 100%; */
+     margin: 8px 0;
+     padding: 12px 20px; 
+     display: inline-block; 
+     border: 2px solid rgb(0, 128, 0); 
+     border-radius: 10px;
+     box-sizing: border-box; 
+ }
+button:hover { 
+     background-color: antiquewhite;
+     opacity: 0.7; 
+ } 
+.cancelbtn { 
+     width: auto;
+     padding: 10px 18px;
+     margin: 10px 5px;
+ } 
+   
+
+.container { 
+     text-align: center;
+     font-size: 25px;
+     font-weight: bold;
+     padding: 25px; 
+     font-family: 'Kalam', cursive;
+     
+ } 
+.form:hover {
+background-color: rgb(152, 143, 130);
+}
+.container-logo {
+text-align: center;
+}
+.form{
+
+ height: 500px;
+ width: 400px;
+}
